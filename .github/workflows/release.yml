@@ -18,11 +18,11 @@ jobs:
 
       - name: Bump version and push tag
         id: tag_action
-        uses: mathieudutour/github-tag-action@v6.2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          default_bump: patch
-          custom_release_rules: "#major:major,#minor:minor,#patch:patch"
+        uses: anothrNick/github-tag-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BUMP: patch
+          WITH_V: true
 
       - name: Create a GitHub Release
         uses: softprops/action-gh-release@v2
