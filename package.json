@@ -1,0 +1,14 @@
+{
+  "name": "pnpm-updater",
+  "version": "1.0.0",
+  "description": "A GitHub Action to update dependencies using pnpm",
+  "keywords": [
+    "github",
+    "actions",
+    "pnpm",
+    "updater"
+  ],
+  "author": "Steve Fenton",
+  "license": "MIT",
+  "dependencies": {}
+}
