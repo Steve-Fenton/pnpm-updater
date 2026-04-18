@@ -67,3 +67,11 @@ jobs:
 ## License
 
 MIT
+
+## Maintenance
+
+To trigger different types of version bumps, use the following hashtags in your commit message to `main`:
+
+- `#major` -> v2.0.0
+- `#minor` -> v1.1.0
+- `#patch` -> v1.0.2 (Default)
