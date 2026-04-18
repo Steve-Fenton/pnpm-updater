@@ -14,6 +14,10 @@ on:
     - cron: '0 0 * * 1' # Every Monday at 00:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -33,6 +37,10 @@ on:
   schedule:
     - cron: '0 0 * * 1' # Every Monday at 00:00 UTC
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update:

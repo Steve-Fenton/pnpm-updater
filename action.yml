@@ -53,5 +53,5 @@ runs:
         base: main
 
 branding:
-  icon: 'package'
-  color: 'orange'
+  icon: 'refresh-cw'
+  color: 'blue'
